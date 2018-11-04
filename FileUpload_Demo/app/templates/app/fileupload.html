@@ -1,0 +1,20 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+
+<hr />
+
+<form action="#" method="post">
+    <div class="form-group">
+            <input type="file" value=""  class="form-control"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Upload File</button>
+</form>
+
+
+<h3><strong>Display Uploaded images here</strong></h3>
+{#<img src="#" alt="Alternate Text" />#}
+
+{% endblock %}
